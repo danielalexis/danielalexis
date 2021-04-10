@@ -7,12 +7,12 @@ Included in the package:
 * C/C++ (gcc & g++)
 * Python 3
 * Perl
-/
-Using wget
+
+Using wget:
 ```
 wget  -q -O - https://raw.githubusercontent.com/danielalexis/MyDevTools/master/VPS/DevTools/devtools.sh | sudo bash
 ```
-Using Curl
+Using Curl:
 ```
 curl -sSL https://raw.githubusercontent.com/danielalexis/MyDevTools/master/VPS/DevTools/devtools.sh | sudo bash
 ```
