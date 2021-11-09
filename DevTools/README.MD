@@ -4,7 +4,7 @@
 Install the DevTools\
 Included in the package:
 * NodeJS
-* C/C++ (gcc & g++)
+* C/C++ (gcc & g++) and Make
 * Python 3
 * Perl
 
