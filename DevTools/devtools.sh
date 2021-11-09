@@ -20,11 +20,11 @@ if [ $? -ne 0 ]; then
     exit
 fi
 echo "-------------------------------"
-echo "     Installing NodeJS 14.x    "
+echo "     Installing NodeJS 16.x    "
 echo "-------------------------------"
 echo "Adding the NodeSource repository"
 echo "-------------------------------"
-curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash - > /dev/null
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - > /dev/null
 echo "           Installing          "
 sudo apt-get install -y nodejs > /dev/null
 if [ $? -ne 0 ]; then
