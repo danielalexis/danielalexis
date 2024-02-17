@@ -1,3 +1,7 @@
 # Hi! I'm Daniel
 ## Good to see you here [![visitors](https://hits.dwyl.com/danielalexis/danielalexis.svg?style=flat)](http://hits.dwyl.com/danielalexis/danielalexis)
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=danielalexis&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
+### 📊 Most Used Languages
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=younes-io&layout=compact&theme=radical)
+
+### 📈 GitHub Stats
+![My stats](https://github-readme-stats.vercel.app/api?username=younes-io&show_icons=true&theme=radical)
