@@ -7,6 +7,16 @@ set -e
 echo "Updating system packages..."
 sudo dnf update -y
 
+# Install Git
+echo "Installing Git..."
+sudo dnf install -y git
+
+# Install GitHub CLI
+echo "Installing GitHub CLI..."
+sudo dnf install dnf5-plugins
+sudo dnf config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo [18]
+sudo dnf install -y gh
+
 # Install Zsh
 echo "Installing Zsh..."
 sudo dnf install -y zsh
@@ -19,15 +29,7 @@ else
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 fi
 
-# Install Git
-echo "Installing Git..."
-sudo dnf install -y git
 
-# Install GitHub CLI
-echo "Installing GitHub CLI..."
-sudo dnf install dnf5-plugins
-sudo dnf config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo [18]
-sudo dnf install -y gh
 
 # Install FNM (Fast Node Manager)
 echo "Installing FNM..."
